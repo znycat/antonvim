@@ -97,9 +97,8 @@ local antovim_definitions = {
 
 local M = {}
 
--- Setup the plugin with user-defined options.
-M.setup = function(user_opts)
-	-- config.setup(user_opts)
+M.setup = function(parameters)
+	
 end
 -- table 中是否含有value,
 -- table为nil      @return true
