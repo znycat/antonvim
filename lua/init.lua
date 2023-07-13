@@ -97,6 +97,10 @@ local antovim_definitions = {
 
 local M = {}
 
+-- Setup the plugin with user-defined options.
+M.setup = function(user_opts)
+	-- config.setup(user_opts)
+end
 -- table 中是否含有value,
 -- table为nil      @return true
 -- table含有value  @return ture
@@ -145,7 +149,5 @@ function M.antovim()
 		end
 	end
 end
-
-M.setup = function() end
 
 return M
