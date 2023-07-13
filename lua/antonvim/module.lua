@@ -1,3 +1,5 @@
+-- module represents a lua module for the plugin
+local M = {}
 local antovim_definitions = {
 	{
 		values = { "div", "span" },
@@ -95,11 +97,7 @@ local antovim_definitions = {
 	{ values = { "Up", "Down" } },
 }
 
-local M = {}
-
-M.setup = function(parameters)
 	
-end
 -- table 中是否含有value,
 -- table为nil      @return true
 -- table含有value  @return ture
